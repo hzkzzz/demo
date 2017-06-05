@@ -1,0 +1,24 @@
+@charset "utf-8";
+.headIn ul{display: none;}
+//.headIn>div{display: block;}
+.bantxt{top: 10%;left: 0;}
+.bannerIn{height:auto;overflow: hidden;}
+.bantxt{
+    left:10%;
+    top:30%}
+.bantxt h2{font-size:24px;}
+.bantxt p{font-size:18px;}
+#banner{height: auto;}
+#con{width: 100%;}
+.con1{width: 100%;height: 210px;}
+.con1 dt{width: 100%;height:320px;float: right;overflow: hidden;}
+.con1 dt img{width: 362px;height:auto;display: block;margin:auto;}
+.current dt{margin-top: 450px;}
+.con1 dd{width: 100%;height: 210px;float: left;padding-top: 0;overflow: hidden;text-align: center;}
+#footer{display: none;}
+#con .con2  dt{width: 100%;}
+#con .con2  dd{width: 100%;}
+.moban ul li{width: 50%;}
+.barIn{width: 100%;}
+.adList{width: 100%;}
+.adList .xia{left: 50%;}

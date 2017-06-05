@@ -1,0 +1,64 @@
+*{margin: 0;padding: 0;border: 0;list-style: none;}
+body{font-family: "微软雅黑";font-size: 12px;color:#333}
+a{text-decoration: none;color:#333;}
+
+#header{height: 50px;}
+.headIn{width: 100%;height: 50px;line-height: 50px;left: 0;z-index: 99;position: fixed;}
+.headIn h1{width: 184px;height: 36px;float: left;margin-top: 5px;margin-left: 20%;}
+.headIn ul{float: right;overflow: hidden;margin-right: 20%;}
+.headIn ul li{float: left;}
+.headIn ul li a{box-sizing: border-box;padding:0 10px;font-size: 16px;color:#777;margin-right: 10px}
+.headIn ul li:nth-of-type(4) a{margin-left: 20px;padding: 5px 20px;border-radius: 5px;background: #00bff6;color:#fff;}
+.headIn>div{float: right;display: none;width:36px;height: 24px;margin-top: 13px;background:#fff url(../images/list.jpg) no-repeat 5px 6px;margin-right: 10%;}
+#banner{width:100%;position: relative;height: 906px;}
+.page11{position: absolute;width:100%;}
+.bannerIn{width: 1320px;height: 906px;margin: auto;overflow: hidden;}
+.bantxt{position: absolute;z-index: 5;top:15%;left:15%;overflow: hidden;}
+.bantxt h2{font-size: 40px;}
+.bantxt p{font-size: 26px;margin-top: 10px;}
+.bantxt a{width: 240px;height:50px;display: block;text-align: center;line-height: 50px;background:#00bff6;font-size: 18px;margin-top: 40px;border-radius: 8px;color:#fff;}
+#con{width: 1320px;overflow: hidden;margin: auto;}
+.con1{width: 1320px;height: 604px;}
+.con1 dt{width: 50%;height: 604px;float: left;}
+.con1 dd{width: 50%;height: 604px;float: left;padding-left: 30px;box-sizing: border-box;padding-top:180px;padding-right: 30px;}
+.con1 dd h3{font-size: 24px;margin-top: 20px;font-weight: normal;}
+.con1 dd p{font-size: 14px;margin-top: 12px;}
+#con .con2  dt{width: 65%;}
+#con .con2  dd{width: 35%;}
+.moban{height: 508px;margin-top: 20px;position: relative;overflow: hidden;}
+.moban ul{height: 508px;position: absolute;width:100%;left: 0;}
+.moban ul li{float: left;width:20%;background: #ccc;height: 508px;text-align: center;position: relative;}
+.moban ul li:nth-of-type(1){background: #08de94;}
+.moban ul li:nth-of-type(2){background: #f9d602;}
+.moban ul li:nth-of-type(3){background: #00acee;}
+.moban ul li:nth-of-type(4){background: #ffa14d;}
+.moban ul li:nth-of-type(5){background: #7e5bef;}
+.moban ul li a{height: 100%;width: 100%;background:rgba(0,0,0,0.7);position: absolute;left: 0;display: none;}
+.moban ul li a span{width: 150px;height: 55px;line-height: 55px;font-size: 24px;border: 1px solid #fff;color:#fff;margin: 220px auto;display: block;border-radius: 5px;}
+.moban ul li:hover a{display: block;}
+.moban ul li h3{font-size: 24px;margin-top: 8%;margin-bottom: 10%;font-weight: normal;color:#fff;}
+.bar{height: 400px;background:url(../images/page5-bg.jpg) no-repeat;width:100%;}
+.barIn{width: 1320px;height: 400px;margin: auto;padding-top: 100px;box-sizing: border-box;}
+.barIn h3{font-size: 40px;color:#fff;text-align: center;}
+.barIn a{width: 240px;height: 50px;border-radius: 5px;background: #00bff6;color:#fff;display: block;margin: auto;margin-top: 50px;font-size: 16px;line-height: 50px;text-align: center;}
+.tuijian{height: 40px;line-height: 40px;margin: auto;width: 160px;background: #ccc;text-align: center;font-size: 24px;font-weight: normal;margin-top: 60px;margin-bottom: 50px;}
+.adList{width: 920px;margin: auto;height:200px;position: relative;overflow: hidden;}
+.adList .top{width: 9999px;position: absolute;height: 53px;}
+.adList .top a{float: left;width: 230px;height: 53px;}
+.adList .xia{position: absolute;top: 100px;width: 50px;height: 13px;left: 435px;}
+.adList .xia li{height: 10px;width: 10px;float: left;border-radius: 50%;background:#ccf2fd;}
+.adList .xia li.cur{background: #00bff6;}
+
+#footer{height: 230px;background: #ededed;text-align: center;}
+#footer .footIn{width: 700px;margin: auto;padding-top: 30px;box-sizing: border-box;}
+#footer .footIn ul{width: 700px;overflow: hidden;}
+#footer .footIn ul li{width: 140px;float: left;}
+#footer .footIn ul li a{font-size: 14px;color:#6a6e72}
+#footer .footIn a:hover{color:#00bff6}
+.fenxiang{width: 200px;margin: auto;margin-top: 20px;overflow: hidden;}
+.fenxiang a{width: 50px;height: 50px;float: left;background:url(../images/a1.png);}
+.fenxiang a:nth-of-type(2){background:url(../images/a2.png);}
+.fenxiang a:nth-of-type(3){background:url(../images/a3.png);}
+#footer h1{margin-top: 20px;}
+#footer p{margin-top: 20px;font-size: 14px;}
+#footer p a{font-size: 14px;}
